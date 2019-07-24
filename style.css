@@ -1,1 +1,35 @@
+body {
+	background-color :white;
+}
 
+p {color:blue;}
+
+.fav {
+	color:white;
+}
+
+#meat{
+	background-color:white;
+	color:white;
+}
+.sidebar {
+	background-color:#dfd0ff;
+	color:white;
+	position:absolute;
+	top: 0px;
+	width:200px;
+	height:100%;
+}
+.title {
+	height:60px;
+	width:100%;
+}
+.container {
+	position: relative;
+	height:1000px;
+
+}
+.content{
+	position:absolute;
+	left:200px;
+}
