@@ -1,6 +1,8 @@
 body {
 	background-color :white;
+	margin: 0px;
 }
+
 
 p {color:blue;}
 
@@ -19,6 +21,9 @@ p {color:blue;}
 	top: 0px;
 	width:200px;
 	height:100%;
+	padding:10px;
+	box-sizing: border-box;
+	
 }
 .title {
 	height:60px;
@@ -32,4 +37,6 @@ p {color:blue;}
 .content{
 	position:absolute;
 	left:200px;
+	border:2px solid red;
+	padding:0px 10px 15px 15px;
 }
